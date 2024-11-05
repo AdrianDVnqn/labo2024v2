@@ -1,4 +1,4 @@
-# Corrida general del Workflow Baseline
+# Corrida general del Workflow Baseline MODIFICADO con undersampling = 0.3 en linea 308
 
 # limpio la memoria
 rm(list = ls(all.names = TRUE)) # remove all objects
@@ -476,4 +476,5 @@ wf_sept_baseline_undersamp30 <- function( pnombrewf )
 
 # llamo al workflow con future = 202109
 wf_sept_baseline_undersamp30()
+## wf modificado con undersampling = 0.3 en linea 308
 
