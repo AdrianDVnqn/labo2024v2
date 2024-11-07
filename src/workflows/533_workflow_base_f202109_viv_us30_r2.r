@@ -444,7 +444,7 @@ KA_evaluate_kaggle <- function( pinputexps )
 # Que predice 202107 donde conozco la clase
 # y ya genera graficos
 
-wf_sept_baseline_undersamp30 <- function( pnombrewf )
+wf_sept_baseline_us30_r2 <- function( pnombrewf )
 {
   param_local <- exp_wf_init( pnombrewf ) # linea fija
 
@@ -475,6 +475,6 @@ wf_sept_baseline_undersamp30 <- function( pnombrewf )
 # Aqui comienza el programa
 
 # llamo al workflow con future = 202109
-wf_sept_baseline_undersamp30()
+wf_sept_baseline_us30_r2()
 ## wf modificado con undersampling = 0.3 en linea 308
 
