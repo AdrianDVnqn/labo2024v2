@@ -454,9 +454,9 @@ wf_sept_FErf_10_4_1600_02_us30_r2 <- function( pnombrewf )
   DR_drifting_base(metodo="rank_cero_fijo")
   FEhist_base()
 
-  FErf_attributes_base( arbolitos= 32, ### MODIFICADO
-    hojas_por_arbol= 25, ### MODIFICADO
-    datos_por_hoja= 400, ### MODIFICADO
+  FErf_attributes_base( arbolitos= 10, ### MODIFICADO
+    hojas_por_arbol= 4, ### MODIFICADO
+    datos_por_hoja= 1600, ### MODIFICADO
     mtry_ratio= 0.2
   )
   #CN_canaritos_asesinos_base(ratio=0.2, desvio=4.0)
