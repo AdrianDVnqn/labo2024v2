@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-cat( "ETAPA  z2201_HT_lightgbm_gan.r  INIT\n")
+cat( "ETAPA  z2203_HT_lightgbm_gan.r  INIT\n")
 
 # Hyperparameter Tuning  lightgbm
 
@@ -429,7 +429,7 @@ parametrizar  <- function( lparam )
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 # Aqui empieza el programa
-cat( "ETAPA  z2201_HT_lightgbm_gan.r  START\n")
+cat( "ETAPA  z2203_HT_lightgbm_gan.r  START\n")
 action_inicializar() 
 
 # cargo las semillas
@@ -678,4 +678,4 @@ file.remove("z-Rcanresume.txt")
 #  archivos tiene a los files que debo verificar existen para no abortar
 
 action_finalizar( archivos = c("BO_log.txt")) 
-cat( "ETAPA  z2201_HT_lightgbm_gan.r  END\n")
+cat( "ETAPA  z2203_HT_lightgbm_gan.r  END\n")
