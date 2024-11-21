@@ -283,7 +283,7 @@ TS_strategy_base9 <- function( pinputexps )
     201912, 201911,
     201910, # NOExcluyo por variables rotas
     201909, 201908, 201907, 201906,
-    201905,  # NOExcluyo por variables rotas
+    201905  # NOExcluyo por variables rotas
    # 201904, 201903 # Excluyo para mantener 27 meses de train y train_final
   )
 
