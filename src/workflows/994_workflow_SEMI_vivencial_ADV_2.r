@@ -440,7 +440,7 @@ KA_evaluate_kaggle_semillerio <- function( pinputexps )
 
   param_local$envios_desde <- 10500L
   param_local$envios_hasta <- 12000L
-  param_local$envios_salto <-   50L ## Modificado
+  param_local$envios_salto <- 125L ## Modificado
   param_local$competition <- "labo-i-vivencial-2024-v-2"
 
   return( exp_correr_script( param_local ) ) # linea fija
